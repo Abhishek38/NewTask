@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="doc_name">Doctor Name*</string>
+    <string name="spec">Specialization*</string>
+    <string name="mob_no">Mobile Number*</string>
+    <string name="off_no">Office Contact*</string>
+    <string name="address">Address*</string>
+    <string name="city">City*</string>
 </resources>
