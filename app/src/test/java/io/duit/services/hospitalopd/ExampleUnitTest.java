@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package io.duit.services.hospitalopd;
 
 import org.junit.Test;
 

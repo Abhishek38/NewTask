@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package io.duit.services.hospitalopd;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.myapplication", appContext.getPackageName());
+        assertEquals("io.duit.services.hospitalopd", appContext.getPackageName());
     }
 }
