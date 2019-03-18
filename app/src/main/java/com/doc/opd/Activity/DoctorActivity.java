@@ -1,9 +1,8 @@
-package io.duit.services.hospitalopd.Activity;
+package com.doc.opd.Activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import io.duit.services.hospitalopd.R;
+import android.support.v7.app.AppCompatActivity;
+import com.doc.opd.R;
 
 public class DoctorActivity extends AppCompatActivity {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.duit.services.hospitalopd">
+    package="com.doc.opd">
 
     <application
         android:allowBackup="true"
@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.NewOpdActivity"></activity>
+        <activity android:name=".Activity.NewOpdActivity"/>
         <activity android:name=".Activity.AddDoctorActivity" />
         <activity android:name=".Activity.DoctorActivity" />
-        <activity android:name=".PatientActivity" />
+        <activity android:name=".Activity.PatientActivity" />
         <activity
             android:name=".Activity.AllOpdActivity"
             android:label="@string/title_activity_all_opd"
