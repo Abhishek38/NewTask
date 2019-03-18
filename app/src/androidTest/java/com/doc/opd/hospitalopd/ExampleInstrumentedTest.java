@@ -1,4 +1,4 @@
-package io.duit.services.hospitalopd;
+package com.doc.opd.hospitalopd;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

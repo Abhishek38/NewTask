@@ -1,43 +1,35 @@
 {
   "project_info": {
-    "project_number": "980405596795",
-    "firebase_url": "https://duit-agra-opd-mobile-app.firebaseio.com",
-    "project_id": "duit-agra-opd-mobile-app",
-    "storage_bucket": "duit-agra-opd-mobile-app.appspot.com"
+    "project_number": "496601367796",
+    "firebase_url": "https://opd-android.firebaseio.com",
+    "project_id": "opd-android",
+    "storage_bucket": "opd-android.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:980405596795:android:2fb60b8885a0ac42",
+        "mobilesdk_app_id": "1:496601367796:android:66ac9815c4947b35",
         "android_client_info": {
-          "package_name": "io.duit.services.hospitalopd"
+          "package_name": "com.doc.opd"
         }
       },
       "oauth_client": [
         {
-          "client_id": "980405596795-590uhaljtk0tua90r9b49iebelto0f9j.apps.googleusercontent.com",
+          "client_id": "496601367796-4davmg4aeg5r5shg4a3tsc31kfppqfm9.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "io.duit.services.hospitalopd",
-            "certificate_hash": "2351db96b351bf0d71aafb66391d8bb8a06a1ee0"
-          }
-        },
-        {
-          "client_id": "980405596795-5frmhrngja4p1ajdlf77rnt4kdiv3q06.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "io.duit.services.hospitalopd",
+            "package_name": "com.doc.opd",
             "certificate_hash": "cb37c7ff951adb5297a21df3d6e14c97feb923e7"
           }
         },
         {
-          "client_id": "980405596795-71jiguh3d7v0ve21ohrigjngi4av2c0b.apps.googleusercontent.com",
+          "client_id": "496601367796-ar0edkk3j7rld05fmge5g69hvnur0b49.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCR5dAQ8U8d2z2s8Gjh9b2uAfvKZDtrfnA"
+          "current_key": "AIzaSyABNM7SHSuCokcqrjReZ4XXdZAcX8LbIaQ"
         }
       ],
       "services": {
@@ -48,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "980405596795-71jiguh3d7v0ve21ohrigjngi4av2c0b.apps.googleusercontent.com",
+              "client_id": "496601367796-ar0edkk3j7rld05fmge5g69hvnur0b49.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
