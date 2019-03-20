@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#803F51B5"
-    tools:context=".MainActivity">
+
+    tools:context=".Activity.MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/vguideline1"

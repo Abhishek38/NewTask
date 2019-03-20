@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.doc.opd.hospitalopd;
 
 import org.junit.jupiter.api.Test;
 

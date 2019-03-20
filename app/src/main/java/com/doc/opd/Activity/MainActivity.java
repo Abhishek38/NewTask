@@ -1,7 +1,8 @@
-package com.example.myapplication;
+package com.doc.opd.Activity;
+import android.os.Bundle;
+import com.doc.opd.R;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
