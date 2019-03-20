@@ -1,4 +1,10 @@
 <resources>
+    <string name="doc_name">Doctor Name*</string>
+    <string name="spec">Specialization*</string>
+    <string name="mob_no">Mobile Number*</string>
+    <string name="off_no">Office Contact*</string>
+    <string name="address">Address*</string>
+    <string name="city">City*</string>
     <string name="app_name">OPD</string>
     <string name="title_activity_navigation">MyOPD</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>

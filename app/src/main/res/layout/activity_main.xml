@@ -1,18 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#803F51B5"
+
     tools:context=".Activity.MainActivity">
 
-    <TextView
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/vguideline1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
 
-</android.support.constraint.ConstraintLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/Vguideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.18" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.31" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.44" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.57" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.68" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/hguideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.81" />
+
+    <com.tomlonghurst.expandablehinttext.ExpandableHintText
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/doc_name"
+        android:textColor="@android:color/holo_blue_dark"
+        app:floatingLabelColor="@color/colorAccent"
+        app:image="@drawable/ic_baseline_sentiment_very_satisfied_24px"
+        app:imageColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/hguideline2"
+        app:layout_constraintEnd_toStartOf="@+id/Vguideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vguideline1"
+        app:layout_constraintTop_toTopOf="@+id/hguideline1"
+        app:layout_constraintVertical_weight="1"
+        app:textBoxColor="#ffffff">
+
+    </com.tomlonghurst.expandablehinttext.ExpandableHintText>
+
+    <com.tomlonghurst.expandablehinttext.ExpandableHintText
+        android:id="@+id/spec"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/spec"
+        android:textColor="@android:color/holo_blue_dark"
+        app:floatingLabelColor="@color/colorAccent"
+        app:image="@drawable/ic_work_black_24dp"
+        app:imageColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/hguideline3"
+        app:layout_constraintEnd_toStartOf="@+id/Vguideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vguideline1"
+        app:layout_constraintTop_toTopOf="@+id/hguideline2"
+        app:layout_constraintVertical_weight="1"
+        app:textBoxColor="#ffffff">
+
+    </com.tomlonghurst.expandablehinttext.ExpandableHintText>
+
+    <com.tomlonghurst.expandablehinttext.ExpandableHintText
+
+        android:id="@+id/mobile_no"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="number"
+        android:hint="@string/mob_no"
+        android:textColor="@android:color/holo_blue_dark"
+        app:floatingLabelColor="@color/colorAccent"
+        app:image="@drawable/ic_call_black_24dp"
+        app:imageColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/hguideline4"
+        app:layout_constraintEnd_toStartOf="@+id/Vguideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vguideline1"
+        app:layout_constraintTop_toTopOf="@+id/hguideline3"
+        app:layout_constraintVertical_weight="1"
+        app:textBoxColor="#ffffff">
+
+    </com.tomlonghurst.expandablehinttext.ExpandableHintText>
+
+    <com.tomlonghurst.expandablehinttext.ExpandableHintText
+
+        android:id="@+id/office_no"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:inputType="number"
+        android:hint="@string/off_no"
+        android:textColor="@android:color/holo_blue_dark"
+        app:floatingLabelColor="@color/colorAccent"
+        app:image="@drawable/ic_call_black_24dp"
+        app:imageColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/hguideline5"
+        app:layout_constraintEnd_toStartOf="@+id/Vguideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vguideline1"
+        app:layout_constraintTop_toTopOf="@+id/hguideline4"
+        app:layout_constraintVertical_weight="1"
+        app:textBoxColor="#ffffff">
+
+    </com.tomlonghurst.expandablehinttext.ExpandableHintText>
+
+    <com.tomlonghurst.expandablehinttext.ExpandableHintText
+
+        android:id="@+id/address"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="@string/address"
+        android:textColor="@android:color/holo_blue_dark"
+        app:floatingLabelColor="@color/colorAccent"
+        app:image="@drawable/ic_add_location_black_24dp"
+        app:imageColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/hguideline6"
+        app:layout_constraintEnd_toStartOf="@+id/Vguideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vguideline1"
+        app:layout_constraintTop_toTopOf="@+id/hguideline5"
+        app:layout_constraintVertical_weight="1"
+        app:textBoxColor="#ffffff">
+
+    </com.tomlonghurst.expandablehinttext.ExpandableHintText>
+
+    <com.tomlonghurst.expandablehinttext.ExpandableHintText
+
+        android:id="@+id/city"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:foregroundGravity="right"
+        android:hint="@string/city"
+        android:textColor="@android:color/holo_blue_dark"
+        app:floatingLabelColor="@color/colorAccent"
+        app:image="@drawable/ic_location_city_black_24dp"
+        app:imageColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/hguideline7"
+        app:layout_constraintEnd_toStartOf="@+id/Vguideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/vguideline1"
+        app:layout_constraintTop_toTopOf="@+id/hguideline6"
+        app:textBoxColor="#ffffff">
+
+    </com.tomlonghurst.expandablehinttext.ExpandableHintText>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="0dp"
+        android:text="Add"
+        android:textSize="17dp"
+        android:textColor="@android:color/background_light"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/pill_button_theme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Vguideline2"
+        app:layout_constraintStart_toStartOf="@+id/vguideline1"
+        app:layout_constraintTop_toTopOf="@+id/hguideline7" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
